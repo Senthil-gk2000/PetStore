@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Senthil Don't Delete\Project Class\PetStore-Project\petstore.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_Petstore_login_button">click_on_Petstore_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_add_to_cart">click_on_add_to_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_confirm_button">click_on_confirm_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_customer_details_continue_button">click_on_customer_details_continue_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_proceed_to_checkout">click_on_proceed_to_checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_ship_to_different_address">click_on_ship_to_different_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_shipping_address_continue_button">click_on_shipping_address_continue_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_sign_in_menu">click_on_sign_in_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_the_pet_item">click_on_the_pet_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="click_on_the_product_id">click_on_the_product_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="enter_Petstore_password">enter_Petstore_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="enter_Petstore_username">enter_Petstore_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="launch_petstore_url">launch_petstore_url</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="open_the_Chrome_browser">open_the_Chrome_browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="user_enter_customer_details">user_enter_customer_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="validate_order_id_generated">validate_order_id_generated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.steps.files.PetstoreTestScripts" class="method navigator-link" hash-for-method="validate_user_redirects_to_the_catalog_page">validate_user_redirects_to_the_catalog_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.steps.files.PetstoreTestScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_Petstore_login_button">
+                  </a> <!-- click_on_Petstore_login_button -->
+                  <span class="method-name">click_on_Petstore_login_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_add_to_cart">
+                  </a> <!-- click_on_add_to_cart -->
+                  <span class="method-name">click_on_add_to_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_confirm_button">
+                  </a> <!-- click_on_confirm_button -->
+                  <span class="method-name">click_on_confirm_button</span>
+                  <em>
+(Click on Confirm button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_customer_details_continue_button">
+                  </a> <!-- click_on_customer_details_continue_button -->
+                  <span class="method-name">click_on_customer_details_continue_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_proceed_to_checkout">
+                  </a> <!-- click_on_proceed_to_checkout -->
+                  <span class="method-name">click_on_proceed_to_checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_ship_to_different_address">
+                  </a> <!-- click_on_ship_to_different_address -->
+                  <span class="method-name">click_on_ship_to_different_address</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_shipping_address_continue_button">
+                  </a> <!-- click_on_shipping_address_continue_button -->
+                  <span class="method-name">click_on_shipping_address_continue_button</span>
+                  <em>
+(Click on Shipping Address Continue button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_sign_in_menu">
+                  </a> <!-- click_on_sign_in_menu -->
+                  <span class="method-name">click_on_sign_in_menu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_pet_item">
+                  </a> <!-- click_on_the_pet_item -->
+                  <span class="method-name">click_on_the_pet_item</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_product_id">
+                  </a> <!-- click_on_the_product_id -->
+                  <span class="method-name">click_on_the_product_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_Petstore_password">
+                  </a> <!-- enter_Petstore_password -->
+                  <span class="method-name">enter_Petstore_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_Petstore_username">
+                  </a> <!-- enter_Petstore_username -->
+                  <span class="method-name">enter_Petstore_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launch_petstore_url">
+                  </a> <!-- launch_petstore_url -->
+                  <span class="method-name">launch_petstore_url</span>
+                  <em>
+(URL Launching)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open_the_Chrome_browser">
+                  </a> <!-- open_the_Chrome_browser -->
+                  <span class="method-name">open_the_Chrome_browser</span>
+                  <em>
+(Browser opening)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enter_customer_details">
+                  </a> <!-- user_enter_customer_details -->
+                  <span class="method-name">user_enter_customer_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_order_id_generated">
+                  </a> <!-- validate_order_id_generated -->
+                  <span class="method-name">validate_order_id_generated</span>
+                  <em>
+(Validate order ID generated)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_user_redirects_to_the_catalog_page">
+                  </a> <!-- validate_user_redirects_to_the_catalog_page -->
+                  <span class="method-name">validate_user_redirects_to_the_catalog_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Senthil Don't Delete\Project Class\PetStore-Project\petstore.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.steps.files.PetstoreTestScripts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'open_the_Chrome_browser')
+data.setCell(0, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(0, 3, 14570);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_enter_customer_details')
+data.setCell(1, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(1, 3, 14244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launch_petstore_url')
+data.setCell(2, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(2, 3, 2400);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'click_on_confirm_button')
+data.setCell(3, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(3, 3, 1898);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'click_on_proceed_to_checkout')
+data.setCell(4, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(4, 3, 1667);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'click_on_ship_to_different_address')
+data.setCell(5, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(5, 3, 1559);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'click_on_add_to_cart')
+data.setCell(6, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(6, 3, 1475);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'click_on_shipping_address_continue_button')
+data.setCell(7, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(7, 3, 1395);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'click_on_customer_details_continue_button')
+data.setCell(8, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(8, 3, 1308);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validate_order_id_generated')
+data.setCell(9, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(9, 3, 1272);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'click_on_Petstore_login_button')
+data.setCell(10, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(10, 3, 1211);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'click_on_the_pet_item')
+data.setCell(11, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(11, 3, 1005);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'click_on_sign_in_menu')
+data.setCell(12, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(12, 3, 957);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'click_on_the_product_id')
+data.setCell(13, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(13, 3, 885);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validate_user_redirects_to_the_catalog_page')
+data.setCell(14, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(14, 3, 572);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'enter_Petstore_username')
+data.setCell(15, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(15, 3, 553);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'enter_Petstore_password')
+data.setCell(16, 2, 'com.steps.files.PetstoreTestScripts')
+data.setCell(16, 3, 9);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.steps.files.PetstoreTestScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">report</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">open_the_Chrome_browser</span>
+                <span class="method-start">3842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">18440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">launch_petstore_url</span>
+                <span class="method-start">21811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">24222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_sign_in_menu</span>
+                <span class="method-start">24331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">25300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enter_Petstore_username</span>
+                <span class="method-start">25565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">26128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enter_Petstore_password</span>
+                <span class="method-start">26562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">26590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_Petstore_login_button</span>
+                <span class="method-start">26685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">27909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validate_user_redirects_to_the_catalog_page</span>
+                <span class="method-start">28057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">28661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_pet_item</span>
+                <span class="method-start">28756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">29771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_product_id</span>
+                <span class="method-start">30058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">30958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_add_to_cart</span>
+                <span class="method-start">31059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">32574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_proceed_to_checkout</span>
+                <span class="method-start">32940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">34626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_ship_to_different_address</span>
+                <span class="method-start">34789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">36356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_customer_details_continue_button</span>
+                <span class="method-start">36490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">37807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">user_enter_customer_details</span>
+                <span class="method-start">38156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">52407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_shipping_address_continue_button</span>
+                <span class="method-start">52636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">54041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">click_on_confirm_button</span>
+                <span class="method-start">54139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">56064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validate_order_id_generated</span>
+                <span class="method-start">56288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopReport</span>
+                <span class="method-start">57570 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,7 @@
+com\petstore\locators\ShippingAddressPageLocators.class
+com\runner\files\PetStoreRunner.class
+testng\extent\reports\PetStoreReport.class
+com\steps\files\PetstoreTestScripts.class
+com\base\utils\BaseClass.class
+com\stepdefinition\files\PetstoreSD.class
+com\runner\files\PetRunner.class
